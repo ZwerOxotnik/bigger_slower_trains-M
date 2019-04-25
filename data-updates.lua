@@ -9,7 +9,6 @@ if entity then
 	entity.max_power = "1200kW" -- TODO: change
 	entity.burner.effectivity = entity.burner.effectivity * 2
 	entity.friction_force = entity.friction_force * 16
-	entity.inventory_size = entity.inventory_size * 1.5
 end
 
 
@@ -19,6 +18,7 @@ if entity then
 	entity.weight = entity.weight * 3
 	entity.max_health = entity.max_health * 1.2
 	entity.friction_force = entity.friction_force * 5
+	entity.inventory_size = entity.inventory_size * 1.5
 end
 
 
