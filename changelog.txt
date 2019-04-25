@@ -1,0 +1,56 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.4.3
+Date: 2019-04-25
+  Notes:
+    - See 1.4.0
+    - Updated by ZwerOxotnik
+    - Updated for Factorio 1.0
+---------------------------------------------------------------------------------------------------
+Version: 1.4.2
+Date: 2019-04-25
+  Notes:
+    - See 1.4.0
+    - Updated by ZwerOxotnik
+    - Updated for Factorio 0.18
+---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 2019-04-25
+  Notes:
+    - See 1.4.0
+    - Updated by ZwerOxotnik
+    - Updated for Factorio 0.17
+---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2019-04-25
+  Changes:
+    - Dynamic changes for this mod (improved effecting from other mods)
+    - Improved compatibility with other mods (less bugs)
+    - Changes for the fluid wagon are weight, friction force, capacity
+    - Max health for the trains increased by 1.2 times
+    - Inventory size for the locomotive increased by 1.5 times
+  Notes:
+    - Updated by ZwerOxotnik
+    - Updated for Factorio 0.16
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 2019-04-25
+  Changes:
+    - Updated for Factorio 1.0
+  Notes:
+    - Updated by ZwerOxotnik
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 2019-04-25
+  Changes:
+    - Updated for Factorio 0.18
+  Notes:
+    - Updated by ZwerOxotnik
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 2019-04-25
+  Changes:
+    - Updated for Factorio 0.17
+  Notes:
+    - Updated by ZwerOxotnik
+    - Base: https://mods.factorio.com/mod/bigger_slower_trains-016
+    - Original mod: https://mods.factorio.com/mod/bigger_slower_trains
