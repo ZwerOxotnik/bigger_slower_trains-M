@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.0
+Date: 2019-05-10
+  Bugfixes:
+    - Improved compatibility with other mods
+  Changes:
+    - Increased speed for the locomotive
+  Notes:
+    - Updated by ZwerOxotnik
+    - This update for Factorio 0.17
+---------------------------------------------------------------------------------------------------
 Version: 1.5.3
 Date: 2019-04-25
   Bugfixes:

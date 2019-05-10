@@ -1,32 +1,41 @@
--- TODO: change dying_explosion and corpse
+-- TODO: change dying_explosion and corpse. Add customizable mod settings.
 
-local name = "locomotive"
-local entity = data.raw[name][name]
+local entity, name
+
+
+local function multiply_property(property, modificator)
+	if entity[property] == 0 then return end
+	entity[property] = entity[property] * modificator
+end
+
+
+name = "locomotive"
+entity = data.raw[name][name]
 if entity then
-	entity.weight = entity.weight * 3
-	entity.max_health = entity.max_health * 1.2
-	entity.max_speed = entity.max_speed / 2
+	multiply_property("weight", 3)
+	multiply_property("max_health", 1.2)
+	multiply_property("max_speed", 0.5)
 	entity.max_power = "1200kW" -- TODO: change
-	entity.burner.effectivity = entity.burner.effectivity * 2
-	entity.friction_force = entity.friction_force * 16
+	if entity.burner.effectivity ~= 0 then
+		entity.burner.effectivity = entity.burner.effectivity * 2
+	end
+	multiply_property("friction_force", 8)
 end
 
-
-local name = "cargo-wagon"
-local entity = data.raw[name][name]
+name = "cargo-wagon"
+entity = data.raw[name][name]
 if entity then
-	entity.weight = entity.weight * 3
-	entity.max_health = entity.max_health * 1.2
-	entity.friction_force = entity.friction_force * 5
-	entity.inventory_size = entity.inventory_size * 1.5
+	multiply_property("weight", 3)
+	multiply_property("max_health", 1.2)
+	multiply_property("friction_force", 5)
+	multiply_property("inventory_size", 1.5)
 end
 
-
-local name = "fluid-wagon"
-local entity = data.raw[name][name]
+name = "fluid-wagon"
+entity = data.raw[name][name]
 if entity then
-	entity.weight = entity.weight * 3
-	entity.max_health = entity.max_health * 1.2
-	entity.friction_force = entity.friction_force * 5
-	entity.capacity = entity.capacity * 1.5
+	multiply_property("weight", 3)
+	multiply_property("max_health", 1.2)
+	multiply_property("friction_force", 5)
+	multiply_property("capacity", 1.5)
 end
