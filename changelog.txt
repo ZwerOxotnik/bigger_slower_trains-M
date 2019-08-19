@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.7.0
+Date: 2019-08-19
+  Features:
+    - Added support of mod "[OS] Speed Train" (https://mods.factorio.com/mod/bigger_slower_trains-M/discussion/5d44038dbce81e000c443f6a)
+  Notes:
+    - Updated by ZwerOxotnik
+    - This update for Factorio 0.17
+---------------------------------------------------------------------------------------------------
 Version: 1.6.0
 Date: 2019-05-10
   Bugfixes:
