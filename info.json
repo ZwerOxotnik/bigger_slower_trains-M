@@ -1,7 +1,7 @@
 {
 	"name": "bigger_slower_trains-M",
-	"version": "1.7.1",
-	"factorio_version": "0.18",
+	"version": "1.7.2",
+	"factorio_version": "1.0",
 	"title": "Bigger Slower Trains",
 	"author": "butterduck, Serialtasted, ZwerOxotnik",
 	"description": "Makes trains feel more 'bulky' - Increases the locomotive weight & power & health, decreases top speed, increases for the cargo wagon & the fluid wagon weight & capacity & health",
