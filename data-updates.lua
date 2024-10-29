@@ -16,8 +16,8 @@ if entity then
 	multiply_property("max_health", 1.2)
 	multiply_property("max_speed", 0.5)
 	entity.max_power = "1200kW" -- TODO: change
-	if entity.burner.effectivity ~= 0 then
-		entity.burner.effectivity = entity.burner.effectivity * 2
+	if entity.energy_source.effectivity ~= 0 then
+		entity.energy_source.effectivity = entity.energy_source.effectivity * 2
 	end
 	multiply_property("friction_force", 8)
 end
